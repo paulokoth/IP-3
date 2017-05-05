@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="CSS/styles.css" rel="stylesheet" type="text/css" media="all">
-    <script src"JS/jquery-3.2.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="JS/scripts.js"></script>
   </head>
 
@@ -40,7 +41,22 @@
           </div>
 
           <div class="container gameplay">
-            <form action="submit">Enter your number here</form>
+            <form id="pong">
+              <div class="form-group">
+                <label for="value">Enter a number here</label>
+                <input id="ping" type="text" required="required">
+              </div>
+
+              <button class="btn btn-info" type="submit">Play</button>
+
+              <a class="Reset" href="index.html" ><button class="btn btn-default" type="button">Reset</button></a>
+            </form>
+
+            <div class="return">
+              <ul class="result">
+
+              </ul>
+            </div>
           </div>
         </div>
       </div>
