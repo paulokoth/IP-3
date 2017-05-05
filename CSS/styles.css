@@ -1,0 +1,23 @@
+.row1{
+  background-color: orange;
+  height:100px;
+  text-align: center;
+  width: auto;
+}
+
+.row2{
+  background-color: lightgrey;
+  width: auto;
+}
+
+.credits{
+  background-color: lightgreen;
+  margin-left: 0px;
+  padding-left: 0px;
+  width: 300px;
+  height: 100vh;
+}
+
+.content{
+  background-color:white;
+}
